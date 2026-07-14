@@ -1,7 +1,4 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -22,15 +19,26 @@
             "type": "java",
             "name": "Current File",
             "request": "launch",
-            "mainClass": "${file}",
-        }
+            "mainClass": "${file}"
+        },
         {
-    "type": "java",
-    "name": "InterestPercentage",
-    "request": "launch",
-    "mainClass": "Java_Fundamentals.Flow_Controls.InterestPercentage",
-    "projectName": "WiproPBL_87829c36",
-    "args": ["Male", "20"]
-}
+            "type": "java",
+            "name": "InterestPercentage",
+            "request": "launch",
+            "mainClass": "Java_Fundamentals.Flow_Controls.InterestPercentage",
+            "projectName": "WiproPBL_87829c36",
+            "args": ["Male", "20"]
+        },
+        {
+            "type": "java",
+            "name": "FileWordCount",
+            "request": "launch",
+            "mainClass": "IO_Streams.IO_Operations.FileWordCount",
+            "projectName": "WiproPBL_87829c36",
+            "args": [
+    "C:\\Users\\IDHI USE CHEYYI\\Desktop\\inputFile.txt",
+    "C:\\Users\\IDHI USE CHEYYI\\Desktop\\outputFile.txt"
+]
+        }
     ]
 }
