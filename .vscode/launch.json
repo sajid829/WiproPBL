@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VideoLauncher",
+            "request": "launch",
+            "mainClass": "Oops_Inheritence.Project.VideoLauncher",
+            "projectName": "WiproPBL_87829c36"
+        },
+        {
+            "type": "java",
             "name": "CharCheck",
             "request": "launch",
             "mainClass": "Java_Fundamentals.Flow_Controls.CharCheck",
@@ -27,7 +34,10 @@
             "request": "launch",
             "mainClass": "Java_Fundamentals.Flow_Controls.InterestPercentage",
             "projectName": "WiproPBL_87829c36",
-            "args": ["Male", "20"]
+            "args": [
+                "Male",
+                "20"
+            ]
         },
         {
             "type": "java",
@@ -36,9 +46,9 @@
             "mainClass": "IO_Streams.IO_Operations.FileWordCount",
             "projectName": "WiproPBL_87829c36",
             "args": [
-    "C:\\Users\\IDHI USE CHEYYI\\Desktop\\inputFile.txt",
-    "C:\\Users\\IDHI USE CHEYYI\\Desktop\\outputFile.txt"
-]
+                "C:\\Users\\IDHI USE CHEYYI\\Desktop\\inputFile.txt",
+                "C:\\Users\\IDHI USE CHEYYI\\Desktop\\outputFile.txt"
+            ]
         }
     ]
 }
